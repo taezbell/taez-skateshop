@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taez SkateShop</title>
+    <link rel="stylesheet" href="pagina.css"> <!-- Enlace al archivo de 
+    estilos -->
+    <link rel="icon" type="image/png" 
+    href="media\imágenes\logo.jpg">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Taez SkateShop</h1>
+            <img src="logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar productos...">
+            <button onclick="buscarProducto()">Buscar</button>
+        </div>
+        <div class="user-actions">
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Carrito</a>
+        </div>
+    </nav>
+
+    <section id="menu-h">
+        <nav>
+            <ul>
+                <li><a href="ofertas.html">Ofertas del día</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicioalcliente.html">Servicio al cliente</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div id="slider">
+            <ul>
+                <li><img src="media\imágenes\slid.webp" width="700" alt= ""></li>
+                <li><img src="media\imágenes\slide.webp"width="700" alt=""></li>
+                <li><img src="media\imágenes\slider.webp" width="700" alt=""></li>
+            </ul>
+        </div>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="catalogo">
+            <div class="producto">
+                <img src="media\imágenes\producto1.webp" alt="producto1">
+                <h3>Tabla Alien Workshop Visitor reality plexi Iam - 8.5''</h3>
+                <p>S/. 280.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="media\imágenes\producto2.webp" alt="Producto 2">
+                <h3>Tabla Deathwish Foy Only Dreaming Twin tail 8.5</h3>
+                <p>S/. 290.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="media\imágenes\producto3.webp" alt="Producto 3">
+                <h3>Tabla Krooked skate shop day 2024</h3>
+                <p>S/. 280.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="media\imágenes\producto4.webp" alt="Producto 4">
+                <h3>Tabla Alien Workshop Yake Jado - 8.175'</h3>
+                <p>S/. 320.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="media\imágenes\producto5.webp" alt="Producto 5">
+                <h3>Tabla Alien Workshop Dot Fade Twin Tail - 8.25''</h3>
+                <p>S/. 280.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="media\imágenes\producto6.webp" alt="Producto 6">
+                <h3>Tabla Palace Heitor Pro S29 8.375</h3>
+                <p>S/. 290.00</p>
+                <button>Añadir al Carrito</button>
+            </div>
+            <!-- Agregar más productos aquí -->
+        </section>
+        
+        <!-- Carrusel de productos destacados -->
+        <section class="destacados">
+            <!-- Aquí puedes mostrar algunos productos destacados -->
+        </section>
+
+        <!-- Catálogo de productos -->
+        <section class="catalogo" id="catalogo">
+            <!-- Aquí se cargarán los productos -->
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Enlaces a páginas informativas -->
+        <ul>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <!-- Información de contacto -->
+        <div class="contact-info">
+            <p>Política de privacidad | Aviso Legal | Política de cookies © 2024 - Taez SkateShop</p>
+            <span>Contacto: +51943 325 589 / +51912 264 923 / taezskateshop@hotmail.com / Horario de atención 8:00 a.m a 8:00 p.m</span>
+        </div>
+    </footer>
+
+    <!-- Enlace al archivo de script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
